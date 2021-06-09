@@ -1,0 +1,96 @@
+
+/*styling body*/
+body {
+  background:rgb(255, 254, 254);
+    border-style:solid;
+    height:1900px;
+    width:1530px;
+  }
+  /*styling topside*/
+  .bitcoin{
+    position:absolute;
+    top:17px;
+    left:20px;
+    border:15px solid green;
+    width:230px
+  }
+  /*creating right top side*/
+  .topside{
+    position:absolute;
+    top:39px;
+   left:1200px;
+    border:15px solid green;
+    width:260px
+  }
+  /*subhead*/
+  .subhead{
+      border-bottom: 2px solid blue;
+      border-top: 2px solid blue;
+      padding: 12px 0 12px 0;
+      color: tomato;
+  }
+  /*styling the images*/
+  .ima1{
+    position:absolute;
+    left:10px;
+    top:210px;
+  }
+  .ima2{
+    position:absolute;
+    left:720px;
+    top:210px;
+  }
+  /*styling the main*/
+  .mein{
+    width: 1500px;
+    border: 6px solid rgb(147, 230, 147);
+    padding: 50px;
+    margin: 20px;
+  position: relative;
+   top:200px;
+    left:-15px;
+    height:1060px;
+    }
+  /* styling the columns with bootstrap*/
+  .col-5{
+    position:absolute;
+    top:440px;
+    left:0px;
+    font-family: "Times New Roman",   Times, serif;
+    border-right:5px solid black;
+}
+  .col-5span{
+    color:red;
+    }
+  .col-7{
+    position:absolute;
+    top:440px;
+    left:625px;
+    font-family: "Times New Roman", Times, serif;
+    }
+  
+  /*Styling the bottom of page*/
+  
+  .google{
+    position:absolute;
+   bottom:-1150px;
+    left:10px;
+  }
+  .google span{
+    color:blue;
+  }
+  .io1{
+    position:absolute;
+    left:560px;
+    bottom:-1140px;
+    width:450px;
+    background-color:grey;
+  border-right:3px solid black;
+      }
+  .io5{
+      position:absolute;
+    left:1060px;
+    bottom:-1120px;
+    width:400px;
+    background-color:grey;
+    }
